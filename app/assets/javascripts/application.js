@@ -11,5 +11,15 @@
 // about supported directives.
 //
 //= require rails-ujs
+//= require jquery
+//= require marker_popup
 //= require turbolinks
-//= require_tree .
+//= require plugin/scroll/smooth-scroll.min
+//= require toastr
+//= require toastr_config
+//= require react
+//= require react_ujs
+//= require common
+//= require home
+//= require pace_config
+//= require_tree ./components

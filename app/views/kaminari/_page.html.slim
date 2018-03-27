@@ -1,0 +1,5 @@
+- if page.current?
+  a class="u-page active"
+    = link_to_unless page.current?, page, url, {remote: remote, rel: page.rel}
+- else
+  = link_to_unless page.current?, page, url, {remote: remote, rel: page.rel, class:"u-page #{' active' if page.current?}"}

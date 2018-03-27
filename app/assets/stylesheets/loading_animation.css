@@ -1,0 +1,62 @@
+.sokuhaku-loading-card {
+  background: #fff;
+  border-radius: 3px;
+  border-bottom: rgb(208, 209, 213) solid 1px;
+  border-left: rgb(223, 224, 228) solid 1px;
+  border-right: rgb(223, 224, 228) solid 1px;
+  border-top: rgb(229, 230, 233) solid 1px;
+  display: block;
+  height: 307px;
+  width: 360px;
+  padding: 12px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Sokuhaku Loading - First Box - Image */
+.sokuhaku-loading-card > div:nth-child(1){
+  width: 100%;
+  height: 200px;
+}
+
+.sokuhaku-loading-card > div:nth-child(1),
+/* FB Loading - First Row */
+.sokuhaku-loading-card > div:nth-child(2), 
+/* FB Loading - Second Row */
+.sokuhaku-loading-card > div:nth-child(3), 
+/* FB Loading - Third Row */
+.sokuhaku-loading-card > div:nth-child(4){
+  position:relative;
+  background-color: #CCC;
+  animation-name: shine; 
+  animation-duration: 2s; 
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes shine {
+    from {transition:none;}
+    to {background-color:#f6f7f8;transition: all 0.3s ease-out;}
+}
+
+/* FB Loading - Third Row */
+.sokuhaku-loading-card > div:nth-child(2){
+  left:0px;
+  height: 6px;
+  top:30px;
+  width: 80%;
+}
+
+/* FB Loading - Fourth Row */
+.sokuhaku-loading-card > div:nth-child(3){
+  left:0px;
+  height: 6px;
+  top:45px;
+  width: 90%;
+}
+
+/* FB Loading - Fifth Row */
+.sokuhaku-loading-card > div:nth-child(4){
+  left:0px;
+  height: 6px;
+  top:60px;
+  width: 50%;
+}

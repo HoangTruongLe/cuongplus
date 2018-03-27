@@ -1,0 +1,103 @@
+.modal-header-wraper{
+  position: relative;
+}
+.modal-header-title{
+  margin: auto;
+  font-size: large;
+}
+.modal-header-button{
+  position: absolute;
+  top: 20px;
+  right: 23px;
+}
+/********************************************************************SUGGESTIONS**********************************/
+.location .u-mypage .u-mypage-manu .u-manu-items {
+    width: 100%;
+}
+.location .u-mypage .u-mypage-manu .u-manu-items a {
+    padding: 0.5em 0;
+}
+.location .u-mypage .u-mypage-manu .u-manu-items a i {
+    font-size: 23px;
+}
+.u-search-box .u-search-area .input-search i.clear {
+  cursor: pointer;
+}
+/***********************************************************************GOOGLE MAP********************************/
+#map {
+  width: 100%;
+  height: 400px;
+}
+/*map controlUI*/
+#map_control_ui {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 6px;
+  cursor: pointer;
+  margin-bottom: 22px;
+  text-align: center;
+}
+
+#map_checkbox_control {
+  color: rgb(25, 25, 25);
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 38px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: -6px;
+}
+#map_label_control {
+  line-height: 38px;
+  color: rgb(25, 25, 25);
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  margin-right: 5px;
+}
+/* The location pointed to by the popup tip. */
+.popup-tip-anchor {
+  height: 0;
+  position: absolute;
+  /* The max width of the info window. */
+  width: 200px;
+}
+/* The bubble is anchored above the tip. */
+.popup-bubble-anchor {
+  position: absolute;
+  width: 100%;
+  bottom: /* TIP_HEIGHT= */ 8px;
+  left: 0;
+}
+/* Draw the tip. */
+.popup-bubble-anchor::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* Center the tip horizontally. */
+  transform: translate(-50%, 0);
+  /* The tip is a https://css-tricks.com/snippets/css/css-triangle/ */
+  width: 0;
+  height: 0;
+  /* The tip is 8px high, and 12px wide. */
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: /* TIP_HEIGHT= */ 8px solid white;
+}
+/* The popup bubble itself. */
+.popup-bubble-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -100%);
+  /* Style the info window. */
+  background-color: white;
+  padding: 7px;
+  border-radius: 5px;
+  font-family: sans-serif;
+  overflow-y: auto;
+  max-height: 60px;
+  box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.5);
+  color: #fd666d;
+}
