@@ -21,5 +21,5 @@
 //= require react_ujs
 //= require common
 //= require home
-//= require pace_config
+//= require dropzone
 //= require_tree ./components

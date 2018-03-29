@@ -61,6 +61,11 @@ gem 'react-rails', '~> 2.4', '>= 2.4.4'
 gem "slim-rails"
 # pagination
 gem 'kaminari'
+gem 'aws-sdk'
+gem 'aws-sdk-s3'
+gem 'paperclip'
+gem 'dropzonejs-rails'
+
 
 
 group :development, :test do
@@ -69,6 +74,7 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem 'awesome_print'
 end
 
 group :development do

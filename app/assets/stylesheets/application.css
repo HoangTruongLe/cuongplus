@@ -18,4 +18,5 @@
  *= require home
  *= require custom
  *= require loading_animation
+ *= require dropzone/dropzone
  */
